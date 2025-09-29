@@ -1,6 +1,6 @@
 
 
-function MovieCard({posterUrl, title, genre, rating, id}) {
+function MovieCard({posterUrl, title, genre, rating}) {
   return (
     <div className="movie-card">
       <img src={posterUrl} alt={`${title} poster`} className="movie-poster" />
